@@ -1,0 +1,69 @@
+/* Importing fonts */
+@font-face {
+    font-family: butlerRegular;
+    src: url(assets/font/Butler.woff);
+}
+
+@font-face {
+    font-family: butlerLight;
+    src: url(assets/font/Butler-Light.woff);
+}
+
+@font-face {
+    font-family: butlerUltraLight;
+    src: url(assets/font/Butler-UltraLight.woff);
+}
+
+@font-face {
+    font-family: butlerBold;
+    src: url(assets/font/Butler-Bold.woff);
+    font-weight: bold;
+}
+
+
+body {
+    margin: 0px;
+}
+
+.container {
+}
+
+/* Header */
+header h1 {
+    font-size: 36px;
+    color: black;
+    display: inline;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+nav ul li {
+    display: inline;
+    /* top right bottom left */
+    margin: 0px 10px 0px 10px;
+}
+
+nav ul a {
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+
+nav ul a:hover {
+    color: rgba(0, 0, 0, 0.5)
+}
+
+/* Global tags */
+h1 {
+    font-family: butlerLight;
+}
+
+a {
+    font-family: butlerLight;
+}
