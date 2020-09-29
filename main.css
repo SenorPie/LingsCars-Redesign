@@ -21,6 +21,12 @@
 }
 
 
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 body {
     margin: 0px;
 }
@@ -110,4 +116,15 @@ nav ul a:hover {
 
 .car-model {
     width: 350px;
+}
+
+/* Footer */
+footer {
+    background-color: red;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
 }
