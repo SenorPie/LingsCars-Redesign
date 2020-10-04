@@ -91,15 +91,6 @@ nav ul a:hover {
     color: rgba(0, 0, 0, 0.5)
 }
 
-nav ul li img {
-    margin: 0% 0% -3% 0%;
-    transition: 0.3s;
-}
-
-nav ul li img:hover {
-    width: 35px;
-}
-
 /* Active page */
 .active {
     font-family: "butlerRegular";
@@ -108,6 +99,10 @@ nav ul li img:hover {
 /* Car showcase */
 .car-showcase {
     padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .car-showcase ul {
@@ -117,7 +112,7 @@ nav ul li img:hover {
 
 .car-showcase ul li {
     display: inline-block;
-    margin: 3% 5% 0% 5%;
+    margin: 0% 100px 0% 100px;
 }
 
 /* Car title */
@@ -176,3 +171,35 @@ footer ul li a {
 footer ul li a:hover {
     color: rgba(0, 0, 0, 0.5);
 }
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .title {
+        font-size: 20px;
+    }
+
+    nav ul a {
+        font-size: 12px;
+    }
+
+    .car-model {
+        width: 100px;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+} 
