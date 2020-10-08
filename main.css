@@ -90,6 +90,28 @@ nav ul a:hover {
     color: rgba(0, 0, 0, 0.5)
 }
 
+/* Dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+}
+
+.dropdown-content a {
+    font-size: 16px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
 /* Active page */
 .active {
     font-family: "butlerRegular";
@@ -179,7 +201,7 @@ footer ul li a:hover {
 
 .product a:hover {
     color: rgba(255, 255, 255, 0.719);
-    padding: 0.5% 2.5%;
+    padding: 0.5% 2%;
 }
 
 .product-img {
