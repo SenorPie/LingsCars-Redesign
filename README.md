@@ -16,4 +16,6 @@ My professor wanted me to remake a terrible website on the internet, this is wha
 Frontend architecture: Only HTML5, CSS and a bit of js **(No framework in use)**
 
 Backend architecture: Flask RESTAPI with a SQL database (haven't chosen one yet)
+
+
 APIs that will be used: Stripe payment solution
