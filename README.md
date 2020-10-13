@@ -1,6 +1,8 @@
 # LingsCars-Redesign
 ### Description
 My professor wanted me to remake a terrible website on the internet, this is what I came up with.
+
+
 **Created a new repository for the backend**
 
 ### Plans for the project
