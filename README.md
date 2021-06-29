@@ -1,9 +1,10 @@
 # LingsCars-Redesign
 ### Description
-My professor wanted me to remake a terrible website on the internet, this is what I came up with.
+My teacher wanted me to remake a terrible website on the internet, this is what I came up with.
 
 
 **Created a new repository for the backend**
+**LINK FOR BACKEND: https://github.com/SenorPie/LingsCars-backend**
 
 ### Plans for the project
 - [x] Find a website
@@ -15,7 +16,6 @@ My professor wanted me to remake a terrible website on the internet, this is wha
 ### Architecture which will be in use
 Frontend architecture: Only HTML5, CSS and a bit of js **(No framework in use)**
 
-Backend architecture: Flask RESTAPI with a SQL database (haven't chosen one yet)
+Backend architecture: A restapi build with expressjs, uses the mariadb database connector.
 
-
-APIs that will be used: Stripe payment solution
+APIs that will be used: Stripe payment solution, Coinpayments, paypal, any other payment APIs.
